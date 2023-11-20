@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Auto Save with UI Messages",
-    "author": "Your Name",
+    "author": "zkhCreator",
     "version": (1, 0),
     "blender": (3, 6, 5),
     "location": "Automatically",
@@ -15,7 +15,7 @@ from bpy.app.handlers import persistent
 import time
 
 # 设置自动保存的时间间隔（以秒为单位）
-AUTO_SAVE_INTERVAL = 30  # 例如，5分钟
+AUTO_SAVE_INTERVAL = 300  # 例如，5分钟
 
 last_save_time = 0
 
